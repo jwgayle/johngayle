@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+.test
+{
+    color: #4fae0a;
+}
+#graph
+{
+	width:260px;
+	height:530px;
+	margin:auto;
+	position:absolute;
+	top:40px;
+	left:650px;
+	font-family:Arial, sans-serif;
+	font-size:10px;
+}
+
+#graph_title
+{
+    width:260px;
+    height:30px;
+    position:absolute;
+    top:20px;
+    left:670px;
+    font-family:Arial, sans-serif;
+    font-size:10pt;
+    text-align: center;
+    color: #58574b;
+}
+
+#graph2
+{
+	width:225px;
+	height:530px;
+	margin:auto;
+	position:absolute;
+	top:40px;
+	left:415px;
+	font-family:Arial, sans-serif;
+	font-size:10px;
+}
+
+#graph2_title
+{
+    width:287px;
+    height:30px;
+    position:absolute;
+    top:20px;
+    left:410px;
+    font-family:Arial, sans-serif;
+    font-size:10pt;
+    text-align: center;
+    color: #58574b;
+}
+
+.tickLabel
+{
+    font-size: 8pt;
+}
+
+#slider_container
+{
+	height: 300px;
+	position:absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.slider_holder
+{
+    height: 80px;
+    position:absolute;
+    left:0px;
+}
+
+.slider
+{
+    position:absolute;
+    top:30px;
+    left:10px;
+    width:360px;
+}
+
+#outputSlider{}
+#fixedcostSlider{}
+#varcostSlider{}
+#revenueSlider{}
+
+#slider_holder_output{top:380px;}
+#slider_holder_fixedcost{top:260px;}
+#slider_holder_varcost{top:140px;}
+#slider_holder_revenue{top:20px;}
+
+.slider_title
+{
+    width: 380px;
+    height: 20px;
+    left: 0px;
+    position:absolute;
+    padding-top:0px;
+    padding-left: 10px;
+    font-family:Arial, sans-serif;
+    font-size:10pt;
+    text-align:left;
+    color:#fff;
+    font-weight:bold;
+    background-color: #96968C;
+}
+
+#title_output{top:360px;}
+#title_fixedcost{top:240px}
+#title_varcost{top:120px;}
+#title_revenue{top:0px;}
+
+#output_container1
+{
+    height: 50px;
+    width: 400px;
+    position:absolute;
+    top:480px;
+    left:0px;
+}
+#output_text_holder1
+{
+    position:absolute;
+    width: 400px;
+    height:55px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border:#CCC solid 1px;
+    background-color:#fff;
+    -moz-box-shadow: 0px 3px 3px #CCC;
+    -webkit-box-shadow: 0px 3px 3px #CCC;
+    box-shadow: 0px 3px 3px #CCC;
+}
+#output_text1
+{
+    position:absolute;
+    width: 400px;
+    top:12px;
+    left:0px;
+    color:#b20022;
+    font-size:12pt;
+    font-weight:bold;
+}
+.col1
+{
+    width:20px;
+    text-align:right;
+    color:#5A5A4B;/*#b20022;*/
+}
+.col2
+{
+    width:80px;
+    color:#5A5A4B;/*#b20022;*/
+}
+.col3
+{
+    width:120px;
+    color:#5A5A4B;/*#b20022;*/
+}
+.col4
+{
+    width:100px;
+    color:#5A5A4B;/*#b20022;*/
+}
+.colEqual
+{
+    width:10px;
+    color:#5A5A4B;/*#b20022;*/
+}
+.fraction
+{
+    position:relative;
+    top:-20px;
+}
+.numerator
+{
+    position:absolute;
+    top:0px;
+    width:100%;
+    text-align:center;
+}
+.denominator
+{
+    position:absolute;
+    top:19px;
+    width:100%;
+    border-top: solid 2px #5A5A4B;
+    text-align:center;
+}
+.var
+{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-size: 14pt;
+
+}

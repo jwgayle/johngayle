@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+<head>
+<meta name="dtb:uid" content="8203"/>
+<meta name="dtb:depth" content="2"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle><text>Pricing Strategy</text></docTitle>
+<docAuthor><text>Robert J. Dolan</text></docAuthor>
+<docAuthor><text>John T. Gourville</text></docAuthor>
+<navMap>
+<navPoint id="nav-1" playOrder="1">
+<navLabel><text>Cover</text></navLabel>
+<content src="html/cover.xhtml"/>
+</navPoint>
+<navPoint id="nav-2" playOrder="2">
+<navLabel><text>Title Page</text></navLabel>
+<content src="html/title.xhtml"/>
+</navPoint>
+<navPoint id="nav-3" playOrder="3">
+<navLabel><text>Copyright Page</text></navLabel>
+<content src="html/cop01.xhtml"/>
+</navPoint>
+<navPoint id="nav-4" playOrder="4">
+<navLabel><text>1 Introduction</text></navLabel>
+<content src="html/ch01.xhtml#ch1"/>
+</navPoint>
+<navPoint id="nav-5" playOrder="5">
+<navLabel><text>2 Essential Reading</text></navLabel>
+<content src="html/ch02.xhtml#ch2"/>
+<navPoint id="nav-6" playOrder="6">
+<navLabel><text>2.1 The Value-Pricing Approach</text></navLabel>
+<content src="html/ch02.xhtml#dh1"/>
+<navPoint id="nav-7" playOrder="7">
+<navLabel><text>Assessing True Economic Value (TEV)</text></navLabel>
+<content src="html/ch02.xhtml#eh1"/>
+</navPoint>
+<navPoint id="nav-8" playOrder="8">
+<navLabel><text>Assessing Perceived Value (PV)</text></navLabel>
+<content src="html/ch02.xhtml#eh2"/>
+</navPoint>
+<navPoint id="nav-9" playOrder="9">
+<navLabel><text>Cost of Goods Sold (COGS)</text></navLabel>
+<content src="html/ch02.xhtml#eh3"/>
+</navPoint>
+<navPoint id="nav-10" playOrder="10">
+<navLabel><text>Putting the Pieces Together</text></navLabel>
+<content src="html/ch02.xhtml#eh4"/>
+</navPoint>
+</navPoint>
+<navPoint id="nav-11" playOrder="11">
+<navLabel><text>2.2 Price Customization</text></navLabel>
+<content src="html/ch02.xhtml#dh2"/>
+<navPoint id="nav-12" playOrder="12">
+<navLabel><text>Controlling Availability</text></navLabel>
+<content src="html/ch02.xhtml#eh5"/>
+</navPoint>
+<navPoint id="nav-13" playOrder="13">
+<navLabel><text>Setting the Price Based on Buyer Characteristics</text></navLabel>
+<content src="html/ch02.xhtml#eh6"/>
+</navPoint>
+<navPoint id="nav-14" playOrder="14">
+<navLabel><text>Setting the Price Based on Transaction Characteristics</text></navLabel>
+<content src="html/ch02.xhtml#eh7"/>
+</navPoint>
+<navPoint id="nav-15" playOrder="15">
+<navLabel><text>Managing the Product-Line Offering</text></navLabel>
+<content src="html/ch02.xhtml#eh8"/>
+</navPoint>
+<navPoint id="nav-16" playOrder="16">
+<navLabel><text>Price Customization and Perceived Fairness</text></navLabel>
+<content src="html/ch02.xhtml#eh9"/>
+</navPoint>
+</navPoint>
+<navPoint id="nav-17" playOrder="17">
+<navLabel><text>2.3 Setting the Price: Consideration of Customer Price Sensitivity</text></navLabel>
+<content src="html/ch02.xhtml#dh3"/>
+<navPoint id="nav-18" playOrder="18">
+<navLabel><text>Assessing Price Sensitivity Using Managerial Judgment</text></navLabel>
+<content src="html/ch02.xhtml#eh10"/>
+</navPoint>
+<navPoint id="nav-19" playOrder="19">
+<navLabel><text>Assessing Price Sensitivity Using Quantitative Market Research</text></navLabel>
+<content src="html/ch02.xhtml#eh11"/>
+</navPoint>
+<navPoint id="nav-20" playOrder="20">
+<navLabel><text>Mapping the Relationship Between Price and Demand</text></navLabel>
+<content src="html/ch02.xhtml#eh12"/>
+</navPoint>
+<navPoint id="nav-21" playOrder="21">
+<navLabel><text>Price Elasticity of Demand</text></navLabel>
+<content src="html/ch02.xhtml#eh13"/>
+<navPoint id="nav-22" playOrder="22">
+<navLabel><text>Why Elasticity Matters</text></navLabel>
+<content src="html/ch02.xhtml#fh1"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="nav-23" playOrder="23">
+<navLabel><text>2.4 Setting the Price: Understanding the Economic Impact for the Firm</text></navLabel>
+<content src="html/ch02.xhtml#dh4"/>
+<navPoint id="nav-24" playOrder="24">
+<navLabel><text>The Drivers of Profitability</text></navLabel>
+<content src="html/ch02.xhtml#eh14"/>
+<navPoint id="nav-25" playOrder="25">
+<navLabel><text>Total Revenue</text></navLabel>
+<content src="html/ch02.xhtml#fh2"/>
+</navPoint>
+<navPoint id="nav-26" playOrder="26">
+<navLabel><text>Total Costs</text></navLabel>
+<content src="html/ch02.xhtml#fh3"/>
+</navPoint>
+</navPoint>
+<navPoint id="nav-27" playOrder="27">
+<navLabel><text>Unit Margins</text></navLabel>
+<content src="html/ch02.xhtml#eh15"/>
+</navPoint>
+<navPoint id="nav-28" playOrder="28">
+<navLabel><text>Breakeven Analysis</text></navLabel>
+<content src="html/ch02.xhtml#eh16"/>
+<navPoint id="nav-29" playOrder="29">
+<navLabel><text>The Impact of a Price Change</text></navLabel>
+<content src="html/ch02.xhtml#fh4"/>
+</navPoint>
+<navPoint id="nav-30" playOrder="30">
+<navLabel><text>The Impact of a Change to Fixed Costs</text></navLabel>
+<content src="html/ch02.xhtml#fh5"/>
+</navPoint>
+<navPoint id="nav-31" playOrder="31">
+<navLabel><text>The Impact of a Change to Variable Costs</text></navLabel>
+<content src="html/ch02.xhtml#fh6"/>
+</navPoint>
+<navPoint id="nav-32" playOrder="32">
+<navLabel><text>Iso-Profit Curves</text></navLabel>
+<content src="html/ch02.xhtml#fh7"/>
+</navPoint>
+</navPoint>
+<navPoint id="nav-33" playOrder="33">
+<navLabel><text>Marginal Math</text></navLabel>
+<content src="html/ch02.xhtml#eh17"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="nav-34" playOrder="34">
+<navLabel><text>3 Key Terms</text></navLabel>
+<content src="html/ch03.xhtml#ch3"/>
+</navPoint>
+<navPoint id="nav-35" playOrder="35">
+<navLabel><text>4 For Further Reading</text></navLabel>
+<content src="html/ch04.xhtml#ch4"/>
+</navPoint>
+<navPoint id="nav-36" playOrder="36">
+<navLabel><text>5 Endnotes</text></navLabel>
+<content src="html/ch05.xhtml#ch5"/>
+</navPoint>
+<navPoint id="nav-37" playOrder="37">
+<navLabel><text>6 Index</text></navLabel>
+<content src="html/ch06.xhtml#ch6"/>
+</navPoint>
+</navMap>
+</ncx>

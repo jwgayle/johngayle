@@ -1,0 +1,53 @@
+.valueLabels {
+	font-size:100%;
+	color:black;
+}
+div.valueLabelLight {
+	opacity:0.5;
+	background-color: white;
+	border:none;
+	position:absolute;
+	text-align:center;
+}
+div.valueLabel {
+	position:absolute;
+	border:none;
+	text-align:left;
+	margin-left:5px;
+	padding-left:5px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+
+.value0
+{
+    /*background-color:#b8c6d1;*/
+    background-color:#f7d4be;
+}
+.value1
+{
+    background-color:#d9e2e8;
+}
+.value2
+{
+	/*background-color:#d2dac3;*/
+    background-color:#b8c6d1;
+}
+.value3
+{
+    /*background-color:#f3dbdf;*/
+    background-color:#cfe4b2;
+}
+
+div.valueLabelTotal {
+    margin-left:5px;
+    padding-left:5px;
+	position:absolute;
+	border:none;
+	text-align:left;
+    background-color:#cfe4b2;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	/*font-weight:bold;*/
+}
+

@@ -1,0 +1,52 @@
+.valueLabels {
+	font-size:8.5pt;
+	color:#5A5A4B;
+    font-weight: bold;
+    /*background-color: #FFFFFF;
+    border: 1px solid red;
+    width: 100px;
+    height: 20px;*/
+}
+div.valueLabelLight {
+	opacity:0.5;
+	background-color: white;
+	border:none;
+	position:absolute;
+	text-align:center;
+}
+div.valueLabel {
+	position:absolute;
+	border:none;
+	text-align:center;
+	/*margin-left:5px;
+	padding-left:5px;*/
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.6);
+    /*border: 1px solid red;*/
+    width: 70px;
+    height: 15px;
+}
+
+.value0
+{
+	background-color:#f7d4be;
+}
+.value1
+{
+	background-color:#b8c6d1;
+}
+.value2
+{
+	/*background-color:#d2dac3;*/
+    background-color:#b8c6d1;
+}
+
+div.valueLabelTotal {
+	position:absolute;
+	border:none;
+	text-align:center;
+	font-weight:bold;
+}
+

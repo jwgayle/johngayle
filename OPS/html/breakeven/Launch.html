@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-US" lang="en-US">
+<head>
+	<title>Breakeven Analysis</title>
+	<link rel="stylesheet" href="css/hbp.widget.common.css"/>
+	<link rel="stylesheet" href="css/hbp.widget.breakeven_quantity.css"/>
+	<link rel="stylesheet" href="css/plot.css"/>
+	<link rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.17.custom.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>          
+    <script type="text/javascript" src="js/flot/excanvas.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.axislabels.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.valuelabels.js"></script>
+ 	<script type="text/javascript" src="js/jquery.ui/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.touch.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.slider.js"></script>
+	<script type="text/javascript" src="js/hbp.util/normal_distribution.js"></script>          
+	<script type="text/javascript" src="js/jquery.format/jquery.format-1.2.js"></script>
+	<script type="text/javascript" src="js/hbp.ui/slider.js"></script>
+	<script type="text/javascript" src="js/hbp.widget.breakeven_quantity.js"></script>
+</head>                                                                 
+<body>                  
+	<div class="hidden">
+    Harvard Business Publishing strives to make all of its products compliant with accessibility guidelines. The online tool you are using is not screen-readable due its complex and non-linear nature. If you encounter accessibility issues please contact us at: http://hbsp.harvard.edu/list/contact-us. Thank you.
+    </div>                                                                  
+    <div id="logo" ></div>
+    <div id="copyright" >&#169; 2014 Harvard Business School Publishing. Harvard Business Publishing is an affiliate of Harvard Business School.</div>
+	<div id="container">
+		<div id="title">Breakeven Analysis</div>
+        <div id="fixedcost_container"></div>
+		<div id="graph"></div>
+        <div id="graph_title">Financial Outcomes</div>
+		<div id="graph2"></div>
+        <div id="graph2_title">Units Sold Relative to Breakeven</div>
+        <div id="slider_container">
+            <div id="slider_holder_fixedcost" class="slider_holder"><div id="fixedcostSlider" class="slider" ></div></div>
+            <div id="slider_holder_revenue" class="slider_holder"><div id="revenueSlider" class="slider" ></div></div>
+            <div id="slider_holder_varcost" class="slider_holder"><div id="varcostSlider" class="slider" ></div></div>
+            <div id="slider_holder_output" class="slider_holder"><div id="outputSlider" class="slider" ></div></div>
+            <div id="output_container1">
+                <div id="output_text_holder1"><div id="output_text1"></div></div>
+            </div>
+            <div id="title_fixedcost" class="slider_title">Fixed Costs (&#x00A0;<span class="var">C</span>&#x00A0;)</div>
+            <div id="title_revenue" class="slider_title">Revenue per Unit Sold (&#x00A0;<span class="var">r</span>&#x00A0;)</div>
+            <div id="title_varcost" class="slider_title">Variable Cost per Unit Sold (&#x00A0;<span class="var">v</span>&#x00A0;)</div>
+            <div id="title_output" class="slider_title">Actual Units Sold</div>
+        </div>
+	</div>
+</body>                                                                 
+</html>

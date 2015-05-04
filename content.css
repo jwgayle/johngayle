@@ -1,0 +1,876 @@
+@charset "UTF-8";
+/* START Font Styles */
+@font-face {
+	font-family: "Gotham-Bold";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-Bold.woff),url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+	font-family: "Gotham-Bold-Italic";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-BoldItalic.woff), url(OPS/fonts/Gotham-BoldItalic.otf);
+}
+
+@font-face {
+	font-family: "Gotham-Book";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-Book.woff),url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+	font-family: "Gotham-Medium";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-Medium.otf), url(OPS/fonts/Gotham-Medium.woff);
+}
+
+@font-face {
+	font-family: "Gotham-Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-Light.woff),url(fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+	font-family: "Gotham-Light-Italic";
+	font-style: normal;
+	font-weight: normal;
+	src: url(font_gotham/Gotham-LightItalic.woff), url(font_gotham/Gotham-LightItalic.otf);
+}
+
+@font-face {
+	font-family: "Gotham-XLight";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Gotham-XLight.woff),url(fonts/Gotham-Bold.otf);
+}
+
+
+/* START Content Styles */
+html {
+	height: 100%;
+	-webkit-text-size-adjust: 100%; /* prevent font scaling in landscape */
+}
+
+/* begin-reset */
+html, body, form, input, button, div, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, p, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, #footnotes-heading {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div, header, footer, section, aside, article, ul, li, input, nav, #footnotes-heading {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+}
+/* end-reset */
+
+.break-all {
+	-ms-word-break: break-all;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: sans-serif;
+	height: 100%;
+	z-index: 0;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ol.none{
+	list-style-type: none;
+}
+
+#content {
+	color: #282828;	
+	font-size: 100%;
+	font-family: Georgia,Cambria, "Times New Roman",Times,serif !important;
+	padding-top: 5em;
+	width: auto;
+	/* -ms-word-break: break-all; */
+
+	     /* Be VERY careful with this, breaks normal words wh_erever */
+	     /* word-break: break-all; */
+
+	     /* Non standard for webkit */
+	     word-break: break-word;
+
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+	        hyphens: auto;
+}
+
+p,h1,h2,h3,h4,h5,h6, #footnotes-heading, figure, table, .bottom-paging {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 80%;	
+}
+
+p, blockquote {
+	font-size: 1.1em;
+	line-height: 1.8em;	
+	margin: 1em 0em;
+}
+
+p.indent {
+	text-indent: 1.25em;	
+}
+
+blockquote {
+	font-style: italic;
+	margin: 1.8em auto;
+	width: 55%;
+}
+
+blockquote > sup {
+	font-style: normal;
+}
+
+.attribution {
+	font-family: "Gotham-Book";
+	font-size: .8em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin-top: 1em;
+	width: 100%;
+}
+
+h2 .attribution {
+	font-family: "Gotham-Book";
+	font-size: 75%;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: .7em;
+	width: 100%;
+}
+
+/* START List Styles */
+p.bullet1, p.list-continue, p.noindent.list, .list-numbered {
+	padding-left: 5%;
+	text-indent: -1.1em;
+	width: 75%;
+}
+
+span.yc {
+	color: #E86C1E;
+	padding-right: .5em;
+}
+
+p.list-continue {
+	text-indent: 1em;
+}
+
+p.list-numbered span.yc {
+	font-family: "Gotham-Bold", sans-serif;
+	font-weight: normal;
+	font-size: .9em;
+	padding-right: .7em;	
+}
+
+p.bullet2 {
+	padding-left: 10%;
+	text-indent: -1.1em;
+	width: 70%;
+}
+
+h1.chaptitle {
+	font-size: 3em;
+	line-height: 90%;
+	margin: 1em 0 .6em 0;
+	text-align: left;
+	text-indent: 0.0em;
+}
+
+span.span3 {
+	color: #780000;
+	font-family: "Gotham-Book", sans-serif;
+	font-weight: normal;
+}
+ 
+span.span4 {
+    color:#E86C1E;
+    font-family: "Gotham-Bold", sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+	background-image: url(OPS/images/bg_orange_bar.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+	color: #FFFFFF;
+	font-family: "Gotham-Bold", sans-serif;
+	font-size: 1.4em;
+	margin-top: 2.8em;
+	margin-bottom: 1.3em;
+	padding: .6em 0;
+	text-align: center;
+}
+
+h2 > span {
+	display: inline-block;
+	padding: 0 1.1em 0 .5em;
+}
+
+h1 + h2 {
+	margin-top: 2em;
+}
+
+#footnotes-heading {
+	font-size: 3em;
+	margin-bottom: .6em;
+	margin-top: 1em;
+	text-align: left;
+}
+
+h3 {
+	color: #E86C1E;
+	font-family: "Gotham-Medium", sans-serif;
+	font-size: 1.35em;
+	font-weight: normal;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	text-align: left;
+}
+
+h4 {
+    font-family: "Gotham-Bold", sans-serif;
+    font-size: 1.15em;
+    font-weight: normal;
+    margin-top: 2.1em;
+    text-align: left;
+}
+
+h5 {
+    font-family: "Gotham-Medium", sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-top: 2.0em;
+    text-align: left;
+}
+
+p.exhibit, div.sidebar p.exhibit {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+}
+
+.g-bold {
+    font-family: "Gotham-Bold";
+}
+
+.g-book {
+    font-family: "Gotham-Book";
+}
+
+p.source, p.note {
+	color: #888888;
+	font-size: .75em;
+	font-family: sans-serif;
+	line-height: 1.4em;
+	margin-top: 1.5em;
+	margin-bottom: 3em;
+}
+
+p.note {
+	color: #282828;
+}
+
+p.note + p.source {
+	margin-top: 0em;
+}
+
+p.note {
+	margin-bottom: 1em;
+}
+
+/* space between exhibit and following paragraph when there is no sourcline */
+p.exhibit + figure + p.indent, 
+p.exhibit + figure + p.noindent  {
+	margin-top: 3em; 		
+}
+
+figure img { 
+	cursor: pointer 
+}
+
+figure {
+	page-break-before: avoid;
+}
+
+.equation {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* SIDEBAR STYLES */
+
+div.sidebar {
+	background-color: #c2d2dc;
+	color: #222D40;
+	margin: 3em auto;
+	padding: 3em;
+	width: 80%;
+}
+
+div.sidebar p, div.sidebar p.sb-source, .sidebar blockquote {
+	color: #222D40;
+	font-family: "Gotham-Book";
+	font-size: 1em;
+	line-height: 1.8em;	
+	margin-bottom: 1em;
+	width: auto;
+}
+
+div.sidebar .sb-heading {
+	font-family: "Gotham-Bold";
+	font-size: 1.5em;
+	margin-top: 0;
+	line-height: normal;
+	text-align: center;
+}
+
+div.sidebar h3.sb-heading {
+	color: #222D40;
+	font-family: "Gotham-Bold";
+	font-size: 1.5em;
+	margin-top: 0;
+	line-height: normal;
+	text-align: center;
+	width: 100%;
+}
+
+p.sb-bullet1, p.sb-list-numbered, p.sb-list-continue {
+	padding-left: 5%;
+	text-indent: -1.1em;
+	width: 95%;
+}
+
+p.sb-list-continue {
+	text-indent: 1em;
+}
+
+div.sidebar p.sb-heading2 {
+	font-family: "Gotham-Bold";
+	font-size: 1.1em;
+	line-height: normal;
+	margin-top: 1.5em;
+}
+	
+div.sidebar span.yc {
+	color: inherit;
+	padding-right: .3em;
+}
+
+p.sb-list-numbered span.yc {
+	font-family: "Gotham-Bold";
+	font-weight: normal;
+	font-size: .9em;
+	padding-right: .7em;			
+}
+	
+p.sb-bullet2 {
+	padding-left: 10%;
+	text-indent: -1.1em;
+}
+
+p.sb-bullet2 span.yc {
+	font-size: 1em;
+	padding-right: .2em;
+}
+
+div.sidebar p.sb-source {
+	font-size: .7em;
+	line-height: 1.5em;
+}
+
+span.keyterm-sidebar {
+	font-family: "Gotham-Bold-Italic";	
+}
+
+div.sidebar figure {
+	width: 100%;
+}
+
+.sidebar blockquote {
+	margin: 1.8em auto;
+	width: 75%;
+}
+/* end Sidebar Styles */
+
+
+p.intro {
+    font-family: "Gotham-Light";
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0;
+    text-indent: 0em;
+}
+
+span.drop {
+    float: left;
+    font-size: 4em;
+    line-height: 50%em;
+    margin-right: .1em;
+    margin-top: .3em;
+}
+
+a {
+	color: #2379F5;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.source a {
+	color: #888888;
+	text-decoration: underline;
+}
+
+p.intro a.keyterm-inline {
+	font-family: "Gotham-Medium";
+	font-weight: normal;
+}
+
+sup, sub {
+   color: #282828;
+   font-size: 80%;
+   position: relative;
+   top: -.4em;
+   vertical-align: baseline;
+}
+
+sub { 
+	top: .4em; 
+}
+
+h1 sup {
+	font-family: "Gotham-Medium", sans-serif;
+	font-size: .35em;
+	font-weight: normal;
+	top: -1.2em;
+}
+
+h2 sup, h3 sup, h4 sup {
+	font-family: "Gotham-Medium", sans-serif;
+	font-size: .55em;
+	font-weight: normal;
+	top: -.7em;
+}
+
+div.sidebar sup a {
+	color: inherit;
+}
+
+p.rule {
+	background-color: #282828;
+	height: 1px;
+	margin-bottom: 4em;
+	margin-top: 4em;
+}
+
+p.author {
+	color: #333;
+	font-size: 100%;
+	line-height: 180%;
+	padding-top: 1em;
+}
+
+p.copyright {
+	color: gray;
+	font-size: 75%;
+	margin: 4.0em 0.0em 1.0em 0.0em;
+	text-align: center;
+	text-indent: 0.0em;
+	width: 75%; 	
+}​
+
+ /* START interactive styles */
+ 
+.interactive-large-screen {
+	display: block;
+	margin-bottom: 1em;
+}
+
+/* when stylesheet is moved into native image folders, relink background-image */
+.interactive-large-screen p.exhibit {
+	background: url(OPS/images/icon_interactive.png) no-repeat;
+	background-size: 35px;
+	line-height: 1.3em;
+	margin-bottom: 0;
+	min-height: 30px;
+	padding-left: 44px;
+	padding-top: 5px;
+	width: 706px;
+}
+
+.interactive-large-screen figure {
+	text-align: center;
+	width: 100%;
+}
+
+iframe {
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+.interactive-small-screen {
+	display: none;
+}
+
+div.sidebar .interactive-large-screen {
+	display: none;	
+}
+
+div.sidebar .interactive-small-screen {
+	display: block;	
+	width: 100%;
+}
+
+div.sidebar .interactive-small-screen p.exhibit {
+	background: url(OPS/images/icon_interactive.png) no-repeat;
+	background-size: 35px;
+	margin-bottom: 4%;
+	min-height: 31px;
+	padding-left: 43px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+div.sidebar div.interactive-small-screen figure {
+	width: 100%;		
+}
+
+div.interactive-large-screen ~  p.source,
+div.interactive-large-screen ~  p.note {
+	margin-top: 0;
+}
+
+/* VIDEO styles start */
+
+.exhibit-video {
+	margin: 0px auto;
+	width: 750px;
+}
+
+.exhibit-video p#int-video-icon {	
+	background: url(OPS/images/icon_video.png) no-repeat;
+	background-size: 35px;
+	line-height: 1.3em;
+	margin-bottom: 2%;
+	min-height: 31px;
+	padding-left: 43px;
+	padding-top: 6px;
+	width: 100%;
+}
+
+.exhibit-bg {
+	padding: .15em 0 1.25em 0;
+	width: 98% !important; 
+}
+
+figure video {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	text-indent: 0;
+	width: 360px;
+	height: 200px;
+}
+
+.player {
+	height: 401px;
+	margin: 10px auto auto auto!important;
+  	width: 650px;
+}
+
+#kaltura_player_1418766480 {
+	z-index: 100;
+}
+
+.exhibit-video iframe {
+	padding-top: 0 !important;
+}
+
+.exhibit-video iframe {
+	width: 500px;
+	height: 315px;
+}
+
+.youtube {
+	text-align: center;
+	width:100%;
+	padding-top: 20px;
+}
+
+/* START Keyterm, Further Reading, Endnotes styles */
+
+p.keyterm {
+	font-size: 1.08em;
+	line-height: 1.4em;	
+	margin-bottom: 1.5em;
+}
+
+p.keyterm > b {
+	font-family: "Gotham-Bold";
+	font-size: .9em;
+	font-style: normal;	
+}
+
+p.hang {
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-bottom: .9em;
+	padding-left: 3.6em;
+	text-indent: -1.125em;
+}
+
+p.hang a {
+	margin-right: .3825em;
+}
+
+p.hang1 {
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-bottom: .9em;
+	padding-left: 3.6em;
+	text-indent: -1.53em;
+}
+
+p.hang1 a {
+	margin-right: .3825em;
+}
+
+p.bib {
+	font-size: 1.1em;
+	line-height: 1.4em;	
+	margin-bottom: 1em;
+	margin-top: 0;
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p.index {
+    font-size: 1em;
+    text-indent: -1em;
+    padding-left: 2em;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+p.index1 {
+    font-size: 100%;
+    text-indent: -1em;
+    padding-left: 2em;
+    margin-right: 0;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+p.index2 {
+    font-size:100%;
+    text-indent: -1em;
+    padding-left:4em;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:left;
+}
+
+p.exhibit + figure img.reduce-x1 {
+	height: auto;
+	width: 90%;	
+}
+
+p.exhibit + figure img.reduce-x2 {
+	height: auto;
+	width: 80%;	
+}
+
+p.exhibit + figure img.reduce-x3 {
+	height: auto;
+	width: 70%;	
+}
+
+p.exhibit + figure img.reduce-x4, img.reduce-x4 {
+	height: auto;
+	width: 60%;	
+}
+
+
+@media (min-width: 920px) {
+	p,h1,h2,h3,h4,h5,h6, #footnotes-heading, figure, table, .bottom-paging {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 750px;
+	}
+	
+	blockquote, .attribution {
+		width: 500px;
+	}			
+	
+	p.bullet1, p.list-continue, p.noindent.list, .list-numbered {
+		padding-left: 50px;
+		width: 700px;
+	}
+	
+	p.bullet2 {
+		padding-left: 75px;
+		width: 675px;
+	}
+	div.sidebar {
+		padding: 40px 50px;
+		width: 750px;
+	}
+		
+	div.sidebar p {
+		width: 100%;	
+	}
+	
+	.sidebar .sb-bullet1, .sidebar .sb-list-numbered, .sidebar .sb-list-continue {
+		padding-left: 40px;
+		width: 610px;
+	}
+	
+	.sidebar p.sb-bullet2 {
+		padding-left: 70px;
+		text-indent: -1.2em;
+		width: 580px;
+	}
+}
+
+@media (max-width: 920px) {
+	.exhibit-video {
+		overflow: hidden;			
+		width: 80%;
+	}
+	
+	.exhibit-video p.exhibit {
+		width: 100%;
+	}
+	
+	.exhibit-video p.source {
+		margin-top: 1.5em;
+		margin-bottom: 0.0em;
+		width: 100%;
+	}
+}
+
+@media (max-width: 960px) {
+
+	.interactive-large-screen {
+		display: none;
+	}
+	
+	.interactive-small-screen {
+		display: block;
+		margin-bottom: 1em;
+	}
+	
+	.interactive-small-screen p.exhibit {
+		background: url(OPS/images/icon_interactive.png) no-repeat;
+		background-size: 35px;
+		margin-bottom: 2%;
+		min-height: 31px;
+		padding-left: 43px;
+		padding-top: 5px;
+		width: 75%;
+	}
+	
+	div.interactive-small-screen figure img {
+		height: auto;
+		margin-right: .35em;
+	}
+	
+	div.interactive-small-screen figure {
+		background-color: #006099;
+		padding: 1%;
+		width: 77%;		
+	}
+	
+	div.interactive-small-screen figure:hover {
+		background-color: #45AAE5;
+	}
+	
+	div.sidebar div.interactive-small-screen {
+		margin-bottom: 1.5em;
+	}
+	
+	div.sidebar .interactive-small-screen p.exhibit {
+		background: url(OPS/images/icon_interactive.png) no-repeat;
+		background-size: 35px;
+		margin-bottom: 4%;
+		min-height: 31px;
+		/*padding-left: 43px;*/
+		padding-top: 5px;
+		width: 95%;
+	}
+	
+	div.sidebar div.interactive-small-screen figure img {
+		box-shadow: 0px 0px 8px #040404;
+		height: auto;
+		margin-right: .35em;
+	}
+	
+	div.sidebar div.interactive-small-screen figure {
+		background-color: none;
+		border-radius: 0px;			
+		padding: 0%;
+		width: 100%;		
+	}
+	
+	.exhibit-video {
+		margin-bottom: 20px;
+	}
+
+	.exhibit-video p#int-video-icon {
+		width: 90%;
+	}
+	
+	.exhibit-video .source {
+  	  width: 90%;
+    }
+
+    .player {
+  	width: 300px;
+  	height: 170px;
+  	padding-top: 0;
+    }
+  
+    .exhibit-bg {
+    	background-color: white;
+    	padding: 0;
+    	margin-top: 20px;
+    }
+	
+	.exhibit-video iframe {
+		width: 250px;
+		height: 141px;
+	}
+}
+

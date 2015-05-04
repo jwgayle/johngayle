@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" xmlns:dcterms="http://purl.org/dc/terms/" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title>Pricing Strategy</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		<dc:creator id="aut">Robert J. Dolan and John T. Gourville</dc:creator>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="pub-id">8203</dc:identifier>
+		<meta property="dcterms:publisher">Harvard Business School Publishing Corporation</meta>
+		<dc:rights>Copyright © 2014 Harvard Business School Publishing Corporation</dc:rights>
+		<meta property="dcterms:modified">2014-09-17T12:00:00Z</meta>
+		<meta name="cover" content="cover-image"/>
+	</metadata>
+	<manifest>
+		<item id="Gotham-Book" href="fonts/Gotham-Book.otf" media-type="application/font-otf"/>
+		<item id="Gotham-Bold" href="fonts/Gotham-Bold.otf" media-type="application/font-otf"/>
+		<item id="Gotham-Light" href="fonts/Gotham-Light.otf" media-type="application/font-otf"/>
+		<item id="Gotham-XLight" href="fonts/Gotham-XLight.otf" media-type="application/font-otf"/>
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+		<item id="toc" properties="nav" href="html/nav.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover" href="html/cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="title" href="html/title.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cop01" href="html/cop01.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch01" href="html/ch01.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch02" href="html/ch02.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch03" href="html/ch03.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch04" href="html/ch04.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch05" href="html/ch05.xhtml" media-type="application/xhtml+xml"/>
+		<item id="ch06" href="html/ch06.xhtml" media-type="application/xhtml+xml"/>
+		<item id="cover-image" href="images/8203_cover.png" media-type="image/png"/>
+		<item id="Ex1" href="images/8203_Ex1.png" media-type="image/png"/>
+		<item id="Ex10" href="images/8203_Ex10.png" media-type="image/png"/>
+		<item id="Ex11" href="images/8203_Ex11.png" media-type="image/png"/>
+		<item id="Ex12" href="images/8203_Ex12.png" media-type="image/png"/>
+		<item id="Ex13" href="images/8203_Ex13.png" media-type="image/png"/>
+		<item id="Ex14" href="images/8203_Ex14.png" media-type="image/png"/>
+		<item id="Ex15" href="images/8203_Ex15.png" media-type="image/png"/>
+		<item id="Ex16" href="images/8203_Ex16.png" media-type="image/png"/>
+		<item id="Ex17" href="images/8203_Ex17.png" media-type="image/png"/>
+		<item id="Ex18" href="images/8203_Ex18.png" media-type="image/png"/>
+		<item id="Ex19" href="images/8203_Ex19.png" media-type="image/png"/>
+		<item id="Ex2" href="images/8203_Ex2.png" media-type="image/png"/>
+		<item id="Ex3" href="images/8203_Ex3.png" media-type="image/png"/>
+		<item id="Ex4" href="images/8203_Ex4.png" media-type="image/png"/>
+		<item id="Ex5" href="images/8203_Ex5.png" media-type="image/png"/>
+		<item id="Ex6" href="images/8203_Ex6.png" media-type="image/png"/>
+		<item id="Ex7" href="images/8203_Ex7.png" media-type="image/png"/>
+		<item id="Ex8" href="images/8203_Ex8.png" media-type="image/png"/>
+		<item id="Ex9" href="images/8203_Ex9.png" media-type="image/png"/>
+		<item id="Interactive_1" href="images/8203_Interactive_1.png" media-type="image/png"/>
+		<item id="Interactive_2" href="images/8203_Interactive_2.png" media-type="image/png"/>
+		<item id="Interactive_3" href="images/8203_Interactive_3.png" media-type="image/png"/>
+		<item id="titlepg" href="images/8203_titlepg.png" media-type="image/png"/>
+		<item id="icons_both" href="images/icons_both.png" media-type="image/png"/>
+		<item id="icon_interactive" href="images/icon_interactive.png" media-type="image/png"/>
+		<item id="video-icon" href="images/video-icon.png" media-type="image/png"/>
+
+		<item id="eqn00_pg07" href="images/eqn00_pg07.png" media-type="image/png"/>
+		<item id="eqn01_pg07" href="images/eqn01_pg07.png" media-type="image/png"/>
+		<item id="eqn02_pg08" href="images/eqn02_pg08.png" media-type="image/png"/>
+		<item id="eqn03_pg10" href="images/eqn03_pg10.png" media-type="image/png"/>
+		<item id="eqn04_pg11" href="images/eqn04_pg11.png" media-type="image/png"/>
+		<item id="eqn05_pg21" href="images/eqn05_pg21.png" media-type="image/png"/>
+		<item id="eqn06_pg23" href="images/eqn06_pg23.png" media-type="image/png"/>
+		<item id="eqn07_pg23" href="images/eqn07_pg23.png" media-type="image/png"/>
+		<item id="eqn08_pg23" href="images/eqn08_pg23.png" media-type="image/png"/>
+		<item id="eqn08_pg25" href="images/eqn08_pg25.png" media-type="image/png"/>
+		<item id="eqn09_pg25" href="images/eqn09_pg25.png" media-type="image/png"/>
+		<item id="eqn10_pg27" href="images/eqn10_pg27.png" media-type="image/png"/>
+		<item id="eqn11_pg28" href="images/eqn11_pg28.png" media-type="image/png"/>
+		<item id="eqn12_pg28" href="images/eqn12_pg28.png" media-type="image/png"/>
+		<item id="eqn13_pg28" href="images/eqn13_pg28.png" media-type="image/png"/>
+		<item id="eqn14_pg28" href="images/eqn14_pg28.png" media-type="image/png"/>
+
+<item id="inte1" href="html/breakeven/assets/hbpub_logo.png" media-type="image/png"/>
+<item id="inte2" href="html/breakeven/assets/right_bracket.png" media-type="image/png"/>
+<item id="inte3" href="html/breakeven/assets/slider_handle.png" media-type="image/png"/>
+<item id="inte4" href="html/breakeven/css/hbp.widget.breakeven_quantity.css" media-type="text/css"/>
+<item id="inte5" href="html/breakeven/css/hbp.widget.common.css" media-type="text/css"/>
+<item id="inte6" href="html/breakeven/css/plot.css" media-type="text/css"/>
+<item id="inte7" href="html/breakeven/js/flot/excanvas.js" media-type="text/javascript"/>
+<item id="inte8" href="html/breakeven/js/flot/excanvas.min.js" media-type="text/javascript"/>
+<item id="inte9" href="html/breakeven/js/flot/jquery.colorhelpers.js" media-type="text/javascript"/>
+<item id="inte10" href="html/breakeven/js/flot/jquery.colorhelpers.min.js" media-type="text/javascript"/>
+<item id="inte11" href="html/breakeven/js/flot/jquery.flot.axislabels.js" media-type="text/javascript"/>
+<item id="inte12" href="html/breakeven/js/flot/jquery.flot.crosshair.js" media-type="text/javascript"/>
+<item id="inte13" href="html/breakeven/js/flot/jquery.flot.crosshair.min.js" media-type="text/javascript"/>
+<item id="inte14" href="html/breakeven/js/flot/jquery.flot.fillbetween.js" media-type="text/javascript"/>
+<item id="inte15" href="html/breakeven/js/flot/jquery.flot.fillbetween.min.js" media-type="text/javascript"/>
+<item id="inte16" href="html/breakeven/js/flot/jquery.flot.image.js" media-type="text/javascript"/>
+<item id="inte17" href="html/breakeven/js/flot/jquery.flot.image.min.js" media-type="text/javascript"/>
+<item id="inte18" href="html/breakeven/js/flot/jquery.flot.js" media-type="text/javascript"/>
+<item id="inte19" href="html/breakeven/js/flot/jquery.flot.min.js" media-type="text/javascript"/>
+<item id="inte20" href="html/breakeven/js/flot/jquery.flot.navigate.js" media-type="text/javascript"/>
+<item id="inte21" href="html/breakeven/js/flot/jquery.flot.navigate.min.js" media-type="text/javascript"/>
+<item id="inte22" href="html/breakeven/js/flot/jquery.flot.pie.js" media-type="text/javascript"/>
+<item id="inte23" href="html/breakeven/js/flot/jquery.flot.pie.min.js" media-type="text/javascript"/>
+<item id="inte24" href="html/breakeven/js/flot/jquery.flot.resize.js" media-type="text/javascript"/>
+<item id="inte25" href="html/breakeven/js/flot/jquery.flot.resize.min.js" media-type="text/javascript"/>
+<item id="inte26" href="html/breakeven/js/flot/jquery.flot.selection.js" media-type="text/javascript"/>
+<item id="inte27" href="html/breakeven/js/flot/jquery.flot.selection.min.js" media-type="text/javascript"/>
+<item id="inte28" href="html/breakeven/js/flot/jquery.flot.stack.js" media-type="text/javascript"/>
+<item id="inte29" href="html/breakeven/js/flot/jquery.flot.stack.min.js" media-type="text/javascript"/>
+<item id="inte30" href="html/breakeven/js/flot/jquery.flot.symbol.js" media-type="text/javascript"/>
+<item id="inte31" href="html/breakeven/js/flot/jquery.flot.symbol.min.js" media-type="text/javascript"/>
+<item id="inte32" href="html/breakeven/js/flot/jquery.flot.threshold.js" media-type="text/javascript"/>
+<item id="inte33" href="html/breakeven/js/flot/jquery.flot.threshold.min.js" media-type="text/javascript"/>
+<item id="inte34" href="html/breakeven/js/flot/jquery.flot.valuelabels.js" media-type="text/javascript"/>
+<item id="inte35" href="html/breakeven/js/flot/jquery.js" media-type="text/javascript"/>
+<item id="inte36" href="html/breakeven/js/flot/jquery.min.js" media-type="text/javascript"/>
+<item id="inte37" href="html/breakeven/js/hbp.ui/slider.js" media-type="text/javascript"/>
+<item id="inte38" href="html/breakeven/js/hbp.ui/~slider.js" media-type="text/javascript"/>
+<item id="inte39" href="html/breakeven/js/hbp.util/normal_distribution.js" media-type="text/javascript"/>
+<item id="inte40" href="html/breakeven/js/jquery.format/jquery.format-1.2.js" media-type="text/javascript"/>
+<item id="inte41" href="html/breakeven/js/jquery.format/jquery.format-1.2.min.js" media-type="text/javascript"/>
+<item id="inte42" href="html/breakeven/js/jquery.ui/jquery-ui-1.8.17.custom.css" media-type="text/css"/>
+<item id="inte43" href="html/breakeven/js/jquery.ui/jquery.ui.core.js" media-type="text/javascript"/>
+<item id="inte44" href="html/breakeven/js/jquery.ui/jquery.ui.mouse.js" media-type="text/javascript"/>
+<item id="inte45" href="html/breakeven/js/jquery.ui/jquery.ui.mouse.touch.js" media-type="text/javascript"/>
+<item id="inte46" href="html/breakeven/js/jquery.ui/jquery.ui.position.js" media-type="text/javascript"/>
+<item id="inte47" href="html/breakeven/js/jquery.ui/jquery.ui.slider.js" media-type="text/javascript"/>
+<item id="inte48" href="html/breakeven/js/jquery.ui/jquery.ui.widget.js" media-type="text/javascript"/>
+<item id="inte49" href="html/breakeven/js/hbp.widget.breakeven_quantity.js" media-type="text/javascript"/>
+<item id="inte50" href="html/breakeven/js/jquery.js" media-type="text/javascript"/>
+<item id="launch1" href="html/breakeven/Launch.html" properties="scripted" media-type="application/xhtml+xml"/>
+
+<item id="inte52" href="html/marginal/assets/bracket.png" media-type="image/png"/>
+<item id="inte53" href="html/marginal/assets/bracket_arial.png" media-type="image/png"/>
+<item id="inte54" href="html/marginal/assets/bracket_calibri.png" media-type="image/png"/>
+<item id="inte55" href="html/marginal/assets/bracket_calibri_red.png" media-type="image/png"/>
+<item id="inte56" href="html/marginal/assets/bracket_middle.png" media-type="image/png"/>
+<item id="inte57" href="html/marginal/assets/checkbox.jpg" media-type="image/jpg"/>
+<item id="inte58" href="html/marginal/assets/checkbox.png" media-type="image/png"/>
+<item id="inte59" href="html/marginal/assets/hbpub_logo.png" media-type="image/png"/>
+<item id="inte60" href="html/marginal/assets/next-button.png" media-type="image/png"/>
+<item id="inte61" href="html/marginal/assets/reset-button.png" media-type="image/png"/>
+<item id="inte62" href="html/marginal/assets/set-button.png" media-type="image/png"/>
+<item id="inte63" href="html/marginal/assets/slider_handle.png" media-type="image/png"/>
+<item id="inte64" href="html/marginal/css/hbp.widget.common.css" media-type="text/css"/>
+<item id="inte65" href="html/marginal/css/hbp.widget.pricing_marginal_math.css" media-type="text/css"/>
+<item id="inte66" href="html/marginal/css/plot.css" media-type="text/css"/>
+<item id="inte67" href="html/marginal/js/flot/excanvas.js" media-type="text/javascript"/>
+<item id="inte68" href="html/marginal/js/flot/excanvas.min.js" media-type="text/javascript"/>
+<item id="inte69" href="html/marginal/js/flot/jquery.colorhelpers.js" media-type="text/javascript"/>
+<item id="inte70" href="html/marginal/js/flot/jquery.colorhelpers.min.js" media-type="text/javascript"/>
+<item id="inte71" href="html/marginal/js/flot/jquery.flot.axislabels.js" media-type="text/javascript"/>
+<item id="inte72" href="html/marginal/js/flot/jquery.flot.crosshair.js" media-type="text/javascript"/>
+<item id="inte73" href="html/marginal/js/flot/jquery.flot.crosshair.min.js" media-type="text/javascript"/>
+<item id="inte74" href="html/marginal/js/flot/jquery.flot.fillbetween.js" media-type="text/javascript"/>
+<item id="inte75" href="html/marginal/js/flot/jquery.flot.fillbetween.min.js" media-type="text/javascript"/>
+<item id="inte76" href="html/marginal/js/flot/jquery.flot.image.js" media-type="text/javascript"/>
+<item id="inte77" href="html/marginal/js/flot/jquery.flot.image.min.js" media-type="text/javascript"/>
+<item id="inte78" href="html/marginal/js/flot/jquery.flot.js" media-type="text/javascript"/>
+<item id="inte79" href="html/marginal/js/flot/jquery.flot.min.js" media-type="text/javascript"/>
+<item id="inte80" href="html/marginal/js/flot/jquery.flot.navigate.js" media-type="text/javascript"/>
+<item id="inte81" href="html/marginal/js/flot/jquery.flot.navigate.min.js" media-type="text/javascript"/>
+<item id="inte82" href="html/marginal/js/flot/jquery.flot.pie.js" media-type="text/javascript"/>
+<item id="inte83" href="html/marginal/js/flot/jquery.flot.pie.min.js" media-type="text/javascript"/>
+<item id="inte84" href="html/marginal/js/flot/jquery.flot.resize.js" media-type="text/javascript"/>
+<item id="inte85" href="html/marginal/js/flot/jquery.flot.resize.min.js" media-type="text/javascript"/>
+<item id="inte86" href="html/marginal/js/flot/jquery.flot.selection.js" media-type="text/javascript"/>
+<item id="inte87" href="html/marginal/js/flot/jquery.flot.selection.min.js" media-type="text/javascript"/>
+<item id="inte88" href="html/marginal/js/flot/jquery.flot.stack.js" media-type="text/javascript"/>
+<item id="inte89" href="html/marginal/js/flot/jquery.flot.stack.min.js" media-type="text/javascript"/>
+<item id="inte90" href="html/marginal/js/flot/jquery.flot.symbol.js" media-type="text/javascript"/>
+<item id="inte91" href="html/marginal/js/flot/jquery.flot.symbol.min.js" media-type="text/javascript"/>
+<item id="inte92" href="html/marginal/js/flot/jquery.flot.threshold.js" media-type="text/javascript"/>
+<item id="inte93" href="html/marginal/js/flot/jquery.flot.threshold.min.js" media-type="text/javascript"/>
+<item id="inte94" href="html/marginal/js/flot/jquery.flot.valuelabels.js" media-type="text/javascript"/>
+<item id="inte95" href="html/marginal/js/flot/jquery.js" media-type="text/javascript"/>
+<item id="inte96" href="html/marginal/js/flot/jquery.min.js" media-type="text/javascript"/>
+<item id="inte97" href="html/marginal/js/flot/plot.css" media-type="text/css"/>
+<item id="inte98" href="html/marginal/js/hbp.ui/custom_buttons.js" media-type="text/javascript"/>
+<item id="inte99" href="html/marginal/js/hbp.ui/slider.js" media-type="text/javascript"/>
+<item id="inte100" href="html/marginal/js/hbp.util/normal_distribution.js" media-type="text/javascript"/>
+<item id="inte101" href="html/marginal/js/jquery.format/jquery.format-1.2.js" media-type="text/javascript"/>
+<item id="inte102" href="html/marginal/js/jquery.format/jquery.format-1.2.min.js" media-type="text/javascript"/>
+<item id="inte103" href="html/marginal/js/jquery.ui/jquery-ui-1.8.17.custom.css" media-type="text/css"/>
+<item id="inte104" href="html/marginal/js/jquery.ui/jquery.ui.core.js" media-type="text/javascript"/>
+<item id="inte105" href="html/marginal/js/jquery.ui/jquery.ui.mouse.js" media-type="text/javascript"/>
+<item id="inte106" href="html/marginal/js/jquery.ui/jquery.ui.mouse.touch.js" media-type="text/javascript"/>
+<item id="inte107" href="html/marginal/js/jquery.ui/jquery.ui.position.js" media-type="text/javascript"/>
+<item id="inte108" href="html/marginal/js/jquery.ui/jquery.ui.slider.js" media-type="text/javascript"/>
+<item id="inte109" href="html/marginal/js/jquery.ui/jquery.ui.widget.js" media-type="text/javascript"/>
+<item id="inte110" href="html/marginal/js/excanvas.js" media-type="text/javascript"/>
+<item id="inte111" href="html/marginal/js/hbp.widget.pricing_marginal_math.js" media-type="text/javascript"/>
+<item id="inte112" href="html/marginal/js/jquery.js" media-type="text/javascript"/>
+<item id="launch2" href="html/marginal/Launch.html" properties="scripted" media-type="application/xhtml+xml"/>
+
+<item id="inte114" href="html/value/assets/bracket.png" media-type="image/png"/>
+<item id="inte115" href="html/value/assets/bracket_arial.png" media-type="image/png"/>
+<item id="inte116" href="html/value/assets/bracket_calibri.png" media-type="image/png"/>
+<item id="inte117" href="html/value/assets/bracket_calibri_red.png" media-type="image/png"/>
+<item id="inte118" href="html/value/assets/bracket_middle.png" media-type="image/png"/>
+<item id="inte119" href="html/value/assets/hbpub_logo.png" media-type="image/png"/>
+<item id="inte120" href="html/value/assets/slider_handle.png" media-type="image/png"/>
+<item id="inte121" href="html/value/css/hbp.widget.common.css" media-type="text/css"/>
+<item id="inte122" href="html/value/css/hbp.widget.value_stack.css" media-type="text/css"/>
+<item id="inte123" href="html/value/js/hbp.ui/slider.js" media-type="text/javascript"/>
+<item id="inte124" href="html/value/js/hbp.util/normal_distribution.js" media-type="text/javascript"/>
+<item id="inte125" href="html/value/js/jquery.format/jquery.format-1.2.js" media-type="text/javascript"/>
+<item id="inte126" href="html/value/js/jquery.format/jquery.format-1.2.min.js" media-type="text/javascript"/>
+<item id="inte127" href="html/value/js/jquery.ui/jquery-ui-1.8.17.custom.css" media-type="text/css"/>
+<item id="inte128" href="html/value/js/jquery.ui/jquery.ui.core.js" media-type="text/javascript"/>
+<item id="inte129" href="html/value/js/jquery.ui/jquery.ui.mouse.js" media-type="text/javascript"/>
+<item id="inte130" href="html/value/js/jquery.ui/jquery.ui.mouse.touch.js" media-type="text/javascript"/>
+<item id="inte131" href="html/value/js/jquery.ui/jquery.ui.position.js" media-type="text/javascript"/>
+<item id="inte132" href="html/value/js/jquery.ui/jquery.ui.slider.js" media-type="text/javascript"/>
+<item id="inte133" href="html/value/js/jquery.ui/jquery.ui.widget.js" media-type="text/javascript"/>
+<item id="inte134" href="html/value/js/excanvas.js" media-type="text/javascript"/>
+<item id="inte135" href="html/value/js/hbp.widget.value_stack.js" media-type="text/javascript"/>
+<item id="inte136" href="html/value/js/jquery.js" media-type="text/javascript"/>
+<item id="launch3" href="html/value/Launch.html" properties="scripted" media-type="application/xhtml+xml"/>
+		
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover" linear="no"/>
+		<itemref idref="title" linear="yes"/>
+		<itemref idref="cop01" linear="yes"/>
+		<itemref idref="ch01" linear="yes"/>
+		<itemref idref="ch02" linear="yes"/>
+		<itemref idref="ch03" linear="yes"/>
+		<itemref idref="ch04" linear="yes"/>
+		<itemref idref="ch05" linear="yes"/>
+		<itemref idref="ch06" linear="yes"/>
+		<itemref idref="launch1" linear="no"/>
+		<itemref idref="launch2" linear="no"/>
+		<itemref idref="launch3" linear="no"/>
+
+	</spine>
+</package>

@@ -1,0 +1,17 @@
+<html>
+  <head>
+	  <script>
+	  window.onload = function() {
+	  var opener = this.opener;
+	  var PageCollection = opener.PageCollection;
+	  var pageCount = opener.Controller.pageCount;
+	  for (var i = 1; i <= pageCount; i++ )
+	  { var page = PageCollection[i]; var content = document.getElementById('content'); var div = document.createElement('div'); div.className = 'page'; var p = document.createElement('p'); p.className = 'pfpage'; p.appendChild(document.createTextNode('[Page ' + i + ']')); div.appendChild(p); content.appendChild(div); content.appendChild(page.xmlDom.cloneNode(true)); }
+	  };
+	  </script>
+	  <link rel="stylesheet" href="print.css">
+  </head>
+  <body>
+    <div id="content"></div>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-US" lang="en-US">
+<head>
+	<title>Marginal Math</title>
+	<link rel="stylesheet" href="css/hbp.widget.common.css"/>
+	<link rel="stylesheet" href="css/hbp.widget.pricing_marginal_math.css"/>
+    <link rel="stylesheet" href="css/plot.css"/>
+	<link rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.17.custom.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/flot/excanvas.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.axislabels.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.valuelabels.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.stack.js"></script>
+ 	<script type="text/javascript" src="js/jquery.ui/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.mouse.touch.js"></script>
+	<script type="text/javascript" src="js/jquery.ui/jquery.ui.slider.js"></script>
+	<!--script type="text/javascript" src="js/hbp.util/normal_distribution.js"></script-->
+	<!--script type="text/javascript" src="js/jquery.format/jquery.format-1.2.min.js"></script-->
+	<script type="text/javascript" src="js/jquery.format/jquery.format-1.2.js"></script>
+	<script type="text/javascript" src="js/hbp.ui/custom_buttons.js"></script>
+	<script type="text/javascript" src="js/hbp.ui/slider.js"></script>
+	<script type="text/javascript" src="js/hbp.widget.pricing_marginal_math.js"></script>
+</head>                                                                 
+<body>                  
+	<div class="hidden">
+    Harvard Business Publishing strives to make all of its products compliant with accessibility guidelines. The online tool you are using is not screen-readable due its complex and non-linear nature. If you encounter accessibility issues please contact us at: http://hbsp.harvard.edu/list/contact-us. Thank you.
+    </div>                                                                  
+    <div id="logo" ></div>
+    <div id="copyright" >&#169; 2014 Harvard Business School Publishing. Harvard Business Publishing is an affiliate of Harvard Business School.</div>
+	<div id="container">
+		<div id="title">Marginal Math</div>
+
+        <div id="slider_container_1_title" class="slider_container_title">Set Original Conditions</div>
+        <div id="slider_container_2_title" class="slider_container_title">New Conditions</div>
+        <div id="slider_container_1" class="slider_container">
+            <div class="cost_title row_title">Choose Business Type</div>
+            <div class="inner_table_holder">
+                <table class="inner_table">
+                    <tr>
+                        <td class="check_col"><input id="chk0" type="radio" name="radio0" value="0"/></td>
+                        <td class="text_col">Low Margin (20%)</td>
+                    </tr>
+                    <tr>
+                        <td class="check_col"><input id="chk1" type="radio" name="radio0" value="1"/></td>
+                        <td class="text_col">High Margin (80%)</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price_title row_title">Price</div>
+            <div id="priceSlider1" class="price_slider slider" ></div>
+            <div class="quantity_title row_title">Units sold</div>
+            <div id="quantitySlider1" class="quantity_slider slider" ></div>
+            <input type="button" id="btnSet" class="img_btn set_btn" />
+	    </div>
+        <div id="slider_container_2" class="slider_container">
+            <div class="cost_title row_title">Choose Market Elasticity</div>
+            <div class="inner_table_holder">
+                <table class="inner_table">
+                    <tr>
+                        <td class="check_col"><input id="chk2" type="radio" name="radio1" value="2"/></td>
+                        <td class="text_col">0.5</td>
+                        <td class="check_col"><input id="chk3" type="radio" name="radio1" value="3"/></td>
+                        <td class="text_col">1</td>
+                        <td class="check_col"><input id="chk4" type="radio" name="radio1" value="4"/></td>
+                        <td class="text_col">2</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price_title row_title">Price</div>
+            <div id="priceSlider2" class="price_slider slider" ></div>
+            <div class="quantity_title row_title">Units sold</div>
+            <div id="quantitySlider2" class="quantity_slider slider" ></div>
+	    </div>
+        <input type="button" id="btnReset" class="img_btn reset_btn" />
+
+        <div id="legend_holder">
+            <table>
+                <tr>
+                    <td id="priceChangeBox" class="legend_box gain">A</td>
+                    <td id="priceChange" class="legend_text">gain in profit</td>
+                    <td id="quantityChangeBox" class="legend_box loss">B</td>
+                    <td id="quantityChange" class="legend_text">loss in profit</td>
+                    <td class="legend_label">Change in profit = A &#x00A0; B</td>
+                </tr>
+                <!--tr>
+                    <td colspan="4" class="legend_label">Change in Profit = A + B</td>
+                </tr-->
+            </table>
+        </div>
+
+        <div id="graph_grid1" class="graph_grid"></div>
+        <div id="graph1" class="graph"></div>
+
+        <div id="output_table_holder">
+            <table class="output_table">
+                <thead>
+                <tr class="row row0">
+                    <th class="col1"></th>
+                    <th class="col2 col_head">Original Condition</th>
+                    <th class="col3 col_head">New Condition</th>
+                    <th class="col4 col_head">Percent Change</th>
+                </tr>
+                </thead>
+                <tr class="row row1">
+                    <td class="col1">Price</td>
+                    <td id="origPrice" class="col2"></td>
+                    <td id="newPrice" class="col3"></td>
+                    <td id="changePrice" class="col4"></td>
+                </tr>
+                <tr class="row row2">
+                    <td class="col1">Units sold</td>
+                    <td id="origQuantity" class="col2"></td>
+                    <td id="newQuantity" class="col3"></td>
+                    <td id="changeQuantity" class="col4"></td>
+                </tr>
+                <tr class="row row1">
+                    <td class="col1">COGS</td>
+                    <td id="origCOGS" class="col2"></td>
+                    <td id="newCOGS" class="col3"></td>
+                    <td id="changeCOGS" class="col4"></td>
+                </tr>
+                <tr class="row row2">
+                    <td class="col1">Unit margin</td>
+                    <td id="origUnitMargin" class="col2"></td>
+                    <td id="newUnitMargin" class="col3"></td>
+                    <td id="changeUnitMargin" class="col4"></td>
+                </tr>
+                <tr class="row row1">
+                    <td class="col1">Margin (%)</td>
+                    <td id="origMargin" class="col2"></td>
+                    <td id="newMargin" class="col3"></td>
+                    <td id="changeMargin" class="col4"></td>
+                </tr>
+                <tr class="row row2 row-break">
+                    <td class="col1">Total margin</td>
+                    <td id="origProfit" class="col2"></td>
+                    <td id="newProfit" class="col3"></td>
+                    <td id="changeProfit" class="col4"></td>
+                </tr>
+                <tr class="row row1">
+                    <td class="col1">Total revenue</td>
+                    <td id="origRevenue" class="col2"></td>
+                    <td id="newRevenue" class="col3"></td>
+                    <td id="changeRevenue" class="col4"></td>
+                </tr>
+                <tr class="row row2">
+                    <td class="col1">Total cost</td>
+                    <td id="origCost" class="col2"></td>
+                    <td id="newCost" class="col3"></td>
+                    <td id="changeCost" class="col4"></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>                                                                 
+
+                                                               
+</html>
